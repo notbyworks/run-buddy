@@ -32,22 +32,29 @@
       </nav>
     </header>
 
-    <section>
+    <section class="hero">
       <!-- jumbotron/hero -->
-      <div>
-        <h3>Get Started Today</h3>
+      <div class="hero-form">
+        <h3>Get Started Today!</h3>
         <p>
-          Fill out this form and one of our trainers will schedule a consult
+          Fill out this form and one of our trainers will schedule a consult.
         </p>
         <form>
           <label for="name">Enter full name:</label>
-          <input type="text" placeholder="Your name" name="name" id="name" />
+          <input
+            type="text"
+            placeholder="Your name"
+            name="name"
+            class="form-input"
+            id="name"
+          />
 
           <label for="email">Enter email address:</label>
           <input
             type="email"
             placeholder="Email address"
             name="email"
+            class="form-input"
             id="email"
           />
 
@@ -56,6 +63,7 @@
             type="tel"
             placeholder="Phone number"
             name="phone"
+            class="form-input"
             id="phone"
           />
           <p>
@@ -72,24 +80,55 @@
             <input type="checkbox" name="age-confirm" id="checkbox" />
           </p>
 
-          <button type="submit">Get running!</button>
+          <button type="submit" id="submit-button">Get running!</button>
         </form>
       </div>
     </section>
 
-    <section>
+    <section id="what-we-do">
       <h2>What We Do</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+        nisi minus expedita officiis consectetur quis aperiam soluta sint vitae
+        accusamus cupiditate, voluptates nam! Quasi explicabo delectus neque at
+        fuga voluptates.
+      </p>
     </section>
 
-    <section>
+    <section id="what-you-do">
       <h2>What You Do</h2>
+      <div>
+        <img src="./assets/images/step-1.svg" alt="" />
+        <h3>Step 1: Fill Out the Form Above.</h3>
+        <p>You're already here, so why not?</p>
+      </div>
+
+      <div>
+        <img src="./assets/images/step-2.svg" alt="" />
+        <h3>Step 2: Consult with One of Our Trainers.</h3>
+        <p>Are you here to build muscle, lose weight, or just feel good?</p>
+      </div>
+
+      <div>
+        <img src="./assets/images/step-3.svg" alt="" />
+        <h3>Step 3: Get Running.</h3>
+        <p>
+          Hit the ground running (literally) once your trainer lays out your
+          plan.
+        </p>
+      </div>
+      <div>
+        <img src="./assets/images/step-4.svg" alt="" />
+        <h3>Step 4: See Results.</h3>
+        <p>Bi-weekly checkins with your trainer will keep you focused</p>
+      </div>
     </section>
 
-    <section>
+    <section id="your-trainers">
       <h2>Meet The Trainers</h2>
     </section>
 
-    <section>
+    <section id="reach-out">
       <h2>Reach Out</h2>
     </section>
 
